@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>artist</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="artist.css">
+        <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="side"><div id="buttons"><button id="undo">undo</button><br>
+                <button id="redo">redo</button>
+                <br>
+                <button id="clear">clear</button>
+                <br>
+            <button id="thickness">thickness</button>
+            </div></div>
+         <!--   <p>thickness</p><div id="thick"></div></div>-->
+
+        <div id="colors">    
+
+
+            <div id="red" class="color"></div>
+            <div id="orange" class="color"></div>
+            <div id="yellow" class="color"></div>
+            <div id="green" class="color"></div>
+            <div id="blue" class="color"></div>
+            <div id="purple" class="color"></div>
+            <div id="pink" class="color"></div>
+            <div id="brown" class="color"></div>
+            <!-- <div id="black" class="color"></div>-->
+        </div>
+        <canvas id="canvas" width="1181" height="1181"></canvas>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script src="artist.js">
+        </script>
+    </body>
+</html>
